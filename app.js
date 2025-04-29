@@ -27,9 +27,9 @@ if (window.location.pathname.includes('index.html')) {
       data.table.rows.forEach(row => {
         const tr = document.createElement('tr');
         tr.innerHTML = `
-          <td>${row.c[0] ? row.c[0].v : ''}</td>
-          <td>${row.c[1] ? row.c[1].v : ''}</td>
-          <td>${row.c[2] ? row.c[2].v : ''}</td>
+           <td>${row.c[0]?.v || ''}</td>
+           <td>${row.c[1]?.v || ''}</td>
+           <td>${row.c[2]?.v || ''}</td>
         `;
         table.appendChild(tr);
       });
