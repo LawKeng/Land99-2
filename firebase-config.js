@@ -3,12 +3,13 @@
 // แล้วสร้างโปรเจกต์ใหม่ เพื่อเอาค่า config จริงมาใส่
 
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyCNin3v-1nXE1alrF4D_xwh1d4Y9QALm8Y",
+  authDomain: "land99-2.firebaseapp.com",
+  projectId: "land99-2",
+  storageBucket: "land99-2.firebasestorage.app",
+  messagingSenderId: "488752514004",
+  appId: "1:488752514004:web:bdfce5cc73d27e32298c41",
+  measurementId: "G-SCNM7P4ZFD"
 };
 
 // Initialize Firebase
