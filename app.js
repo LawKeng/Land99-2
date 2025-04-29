@@ -1,5 +1,5 @@
 // กำหนด URL ของ Google Sheets ที่เชื่อมมา
-const sheetURL = 'https://docs.google.com/spreadsheets/d/1XNpfXtlJT_KLbJ6VakJu0WAKzEDCabzGG0E1JhpToF0/edit?usp=sharing';
+const sheetURL = 'https://docs.google.com/spreadsheets/d/1XNpfXtlJT_KLbJ6VakJu0WAKzEDCabzGG0E1JhpToF0/gviz/tq?tqx=out:json';
 
 // เมื่อโหลดหน้า index.html
 if (window.location.pathname.includes('index.html')) {
